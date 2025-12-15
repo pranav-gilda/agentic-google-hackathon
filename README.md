@@ -165,11 +165,11 @@ agentic-google-hackathon/
 │   ├── parent_config.py  # Parent settings and preferences
 │   ├── config.py         # Configuration parameters
 │   └── setup_check.py    # Environment verification script
-├── docs/                 # Documentation and images
+├── images/               # Screenshots and diagrams
 ├── README.md             # This file
 ├── ARCHITECTURE.md       # Detailed architecture explanation
 ├── EXPLANATION.md        # Design decisions
-├── DEMO.md               # Demo video placeholder
+├── DEMO.md               # Demo video and script
 └── requirements.txt      # Dependencies
 ```
 
@@ -224,6 +224,20 @@ A 3-5 minute video demonstration of the Agentic Bedtime Story Generator, showcas
 - Code walkthrough of key components
 
 See [DEMO.md](DEMO.md) for detailed timestamps and demo script.
+
+## 📸 Screenshots
+
+### Main Story Interface
+![Story Interface](images/Stories.png)
+*The main Streamlit interface showing generated stories with metadata, quality scores, and story history.*
+
+### MCP Observability
+![MCP Observability](images/observability-mcp.png)
+*Real-time observability of MCP tool calls, showing how educational facts are retrieved and integrated into stories.*
+
+### Hyperparameter Tuning & Debug Mode
+![Hyperparameter Tuning](images/hyperparameter-tuning.png)
+*Advanced debug mode with hyperparameter tuning controls for fine-tuning story generation parameters.*
 
 ## 🎓 Hackathon Submission Details
 

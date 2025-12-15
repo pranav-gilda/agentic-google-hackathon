@@ -4,10 +4,6 @@
 
 **Demo Video Link**: https://youtu.be/S0Szdqgfk5A
 
-### Video Timestamps
-
-The demo video should include the following sections with timestamps:
-
 ## Demo Script
 
 ### Introduction (0:00 - 0:30)
@@ -51,13 +47,12 @@ The demo video should include the following sections with timestamps:
 - Highlight resilience (Ollama fallback)
 - Thank you
 
-## Screenshots to Include
+## Screenshots
 
-1. **Streamlit UI**: Main interface with story generation
-2. **Tool Calls**: Console showing MCP tool execution
-3. **Judge Feedback**: Quality scores and feedback
-4. **Fallback**: Ollama generation in action
-5. **Architecture Diagram**: Visual representation
+Screenshots of the application are included in the repository:
+- **Main Story Interface** (`images/Stories.png`): Shows the Streamlit UI with generated stories
+- **MCP Observability** (`images/observability-mcp.png`): Demonstrates MCP tool calls and fact retrieval
+- **Hyperparameter Tuning** (`images/hyperparameter-tuning.png`): Debug mode with advanced controls
 
 ## Key Points to Emphasize
 
